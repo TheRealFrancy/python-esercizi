@@ -63,11 +63,6 @@ def styleinput(styleinfo):
         pathfn.pack()
         id.pack()
     except:
-        pass
-        #error=tk.Label(text="❌errore nella ricerca del item",height=20)
-        #errorstyle = tkFont.Font(family="Raleway", size=30, weight="normal")
-        #error.configure(font=errorstyle)
-        #error.pack()
         tkinter.messagebox.showerror("errore ","chiusura programma")
         time.sleep(5)
         window.destroy()
@@ -80,5 +75,5 @@ if style=="Cancel":
     window.destroy()
   
 else:
-    pass
+   
 window.mainloop()
